@@ -1,0 +1,19 @@
+{
+    "name": "bmf-san/road-to-php-framework",
+    "description": "Road to php framework",
+    "license": "MIT License",
+    "require": {
+        "php": "^7.3",
+        "ext-intl": "^7.3",
+        "ext-mbstring": "^7.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
